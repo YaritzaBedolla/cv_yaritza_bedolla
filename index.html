@@ -14,6 +14,51 @@
     <link rel="stylesheet" href="imrex/css/vendor/owl.carousel.css">
     <link rel="stylesheet" href="imrex/css/vendor/owl.transitions.css">
     <link rel="stylesheet" href="imrex/css/style.css">
+    <style type="text/css" media="screen">
+    	.listing-content:hover{
+    		background: rgb(103, 118, 167) !important;
+    	}
+
+    	.listing-content:hover h6, .listing-content:hover p, .listing-content:hover span{
+    		color: white !important;
+    	}
+
+    	.list-description span{
+    		color: rgb(103, 118, 167);
+    	}
+
+    	.education .listing-content:hover .list-img{
+    		border-color: rgb(103, 118, 167) !important;
+			border-right-color: rgb(103, 118, 167) !important;
+    	}
+
+    	.experience .listing-content:hover .experience-date{
+    		background: rgb(103, 118, 167) !important;
+    	}
+
+    	.experience .listing-content:hover .list-description{
+    		background: rgb(103, 118, 167) !important;
+    	}
+
+    	.owl-pagination .active{
+    		background: rgb(103, 118, 167) !important;
+    	}
+
+    	@media (min-width: 800px){
+
+    		.flexnav li{
+    			width: 16%;
+    		}
+    	}
+
+    	@media only screen and (min-width: 992px){
+
+    		.education .listing-content:hover .list-description{
+    			border-color: rgb(103, 118, 167) !important;
+    		}
+
+    	}
+    </style>
     <script src="imrex/js/vendor/modernizr.js"></script>
   </head>
   <body class="single">
@@ -37,31 +82,13 @@
   <div class="menu-button one-page" style="background: rgb(103, 118, 167) !important">Menu</div>
   <nav>
     <ul  id="navigation-menu" data-breakpoint="992" class="flexnav one-page">
-      <li style="background: rgb(103, 118, 167) !important"><a href="imrex/index.html">Inicio</a>
+      <li style="background: rgb(103, 118, 167) !important;"><a href="#">Inicio</a>
       </li>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#about">¿Quién soy?</a>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#skills">Habilidades</a></li>
-            <li style="background: rgb(103, 118, 167) !important"><a href="#education">Educación</a></li>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#experience">Formación</a></li>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#reference-link">Referencias</a></li>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#blog">Blog</a>
-          <ul>
-            <li style="background: rgb(103, 118, 167) !important"><a href="#">Blog Layout</a>
-              <ul>
-                <li><a href="imrex/blog.html">Three Column</a></li>
-                <li><a href="imrex/blog-2.html">With Sidebar</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Single Post</a>
-              <ul>
-                <li><a href="imrex/single-blog-right.html">Left Side Bar</a></li>
-                <li><a href="imrex/single-blog-left.html">Right Side Bar</a></li>
-                <li><a href="imrex/single-blog.html">Single Blog</a></li>
-              </ul>
-            </li>
-          </ul>
-      </li>
-      <li style="background: rgb(103, 118, 167) !important"><a href="#contact">Contact</a></li>
+      <li style="background: rgb(103, 118, 167) !important;"><a href="#about">¿Quién soy?</a>
+      <li style="background: rgb(103, 118, 167) !important;"><a href="#skills">Habilidades</a></li>
+            <li style="background: rgb(103, 118, 167) !important;"><a href="#education">Educación</a></li>
+      <li style="background: rgb(103, 118, 167) !important;"><a href="#experience">Formación</a></li>
+      <li style="background: rgb(103, 118, 167) !important;"><a href="#reference-link">Referencias</a></li>
     </ul>
   </nav>				
 				</div>
@@ -91,7 +118,7 @@
 				<div class="col-md-6">
 					<h4>¿Quién soy?</h4>
 					<div class="about-content">
-						<span class="active-color">Soy Yaritza Bedolla Zavala, Ingeniera Química en formación.</span>
+						<span class="active-color" style="color: rgb(103, 118, 167) !important">Soy Yaritza Bedolla Zavala, Ingeniera Química en formación.</span>
 						<p>Una estudiante comprometida, creativa, responsable y apasionada por la ciencia; me gusta el trabajo en equipo, tengo habilidades de liderazgo y organización, me adapto con facilidad a los diferentes entornos de trabajo, así como a las exigencias. Soy una persona con visión, proactiva, apasionada, sociable por naturaleza y me gusta tomar nuevos retos. Siempre dando lo mejor cada día.</p>
 					</div>
 				</div>
@@ -104,7 +131,7 @@
 									<h6>Correo Electrónico:</h6>
 								</div>
 								<div class="col-md-7">
-									<p><a href="mailto:y.bedollazavala@ugto.mx">y.bedollazavala@ugto.mx</a></p>
+									<p><a style="color: rgb(103, 118, 167) !important" href="mailto:y.bedollazavala@ugto.mx">y.bedollazavala@ugto.mx</a></p>
 								</div>
 							</div>
 						</li>
@@ -165,28 +192,28 @@
 					<h4 class="title">Habilidades</h4>
 					<h6>Trabajo en Equipo</h6>
 					<div class="skillbar clearfix " data-percent="90%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">90%</div>
+						<div class="skillbar-bar" style="background: rgb(103, 118, 167) !important"></div>
+						<div class="skill-bar-percent" style="color: rgb(103, 118, 167) !important">90%</div>
 					</div> <!-- End Skill Bar -->
 					<h6>Comunicación</h6>
 					<div class="skillbar clearfix " data-percent="70%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">80%</div>
+						<div class="skillbar-bar" style="background: rgb(103, 118, 167) !important"></div>
+						<div class="skill-bar-percent" style="color: rgb(103, 118, 167) !important">80%</div>
 					</div> <!-- End Skill Bar -->
 					<h6>Tecnología</h6>
 					<div class="skillbar clearfix " data-percent="50%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">60%</div>
+						<div class="skillbar-bar" style="background: rgb(103, 118, 167) !important"></div>
+						<div class="skill-bar-percent" style="color: rgb(103, 118, 167) !important">60%</div>
 					</div> <!-- End Skill Bar -->
 					<h6>Liderazgo</h6>
 					<div class="skillbar clearfix " data-percent="85%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">85%</div>
+						<div class="skillbar-bar" style="background: rgb(103, 118, 167) !important"></div>
+						<div class="skill-bar-percent" style="color: rgb(103, 118, 167) !important">85%</div>
 					</div> <!-- End Skill Bar -->
 					<h6>Responsabilidad</h6>
 					<div class="skillbar clearfix " data-percent="90%">
-						<div class="skillbar-bar"></div>
-						<div class="skill-bar-percent">90%</div>
+						<div class="skillbar-bar" style="background: rgb(103, 118, 167) !important"></div>
+						<div class="skill-bar-percent" style="color: rgb(103, 118, 167) !important">90%</div>
 					</div> <!-- End Skill Bar -->
 				</div>
 			</div>
@@ -287,98 +314,28 @@
 			<div id="reference" class="owl-carousel">
 				<div class="col-md-12 reference">
 					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img1.png" alt="">
+						<img class="img-circle" src="imrex/img/reference/reference-img1.png" alt="" style="height: 71px; width: 71px;">
 					</div>
 					<div class="reference-title">
 						<h6>Luis Jorge Lozano</h6>
-						<span>Estudiante / Universidad Autónoma de Querétaro</span>
+						<span>Centro de Desarrollo FIF / UAQ</span>
 					</div>
 					<div class="clearfix"></div>
 					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
+						<p>Tuve la oportunidad de trabajar conjuntamente diversos proyectos donde siempre demostró su gran capacidad para llevar a cabo diversas tareas. Lista para afrontar cualquier reto que se le presente.</p>
 					</div>
 				</div>
 				<div class="col-md-12 reference">
 					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img2.png" alt="">
+						<img class="img-circle" src="imrex/img/reference/reference-img2.png" alt="" style="height: 71px; width: 71px;">
 					</div>
 					<div class="reference-title">
-						<h6>Ime Atihse </h6>
-						<span>CEO / Eva inc.</span>
+						<h6>Carlos López Olivas </h6>
+						<span>Académico Investigador / ITESM</span>
 					</div>
 					<div class="clearfix"></div>
 					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
-					</div>
-				</div>
-				<div class="col-md-12 reference">
-					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img1.png" alt="">
-					</div>
-					<div class="reference-title">
-						<h6>Atihse Ime</h6>
-						<span>CEO / Wall-E inc.</span>
-					</div>
-					<div class="clearfix"></div>
-					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
-					</div>
-				</div>
-				<div class="col-md-12 reference">
-					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img2.png" alt="">
-					</div>
-					<div class="reference-title">
-						<h6>Ime Atihse </h6>
-						<span>CEO / Eva inc.</span>
-					</div>
-					<div class="clearfix"></div>
-					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
-					</div>
-				</div>
-				<div class="col-md-12 reference">
-					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img1.png" alt="">
-					</div>
-					<div class="reference-title">
-						<h6>Atihse Ime</h6>
-						<span>CEO / Wall-E inc.</span>
-					</div>
-					<div class="clearfix"></div>
-					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
-					</div>
-				</div>
-				<div class="col-md-12 reference">
-					<div class="reference-img pull-left">
-						<img class="img-circle" src="imrex/img/reference/reference-img2.png" alt="">
-					</div>
-					<div class="reference-title">
-						<h6>Ime Atihse </h6>
-						<span>CEO / Eva inc.</span>
-					</div>
-					<div class="clearfix"></div>
-					<div class="reference-description">
-						<p>Thirure dolor in reprehenderit in voluptate velit esse cillum dolore eugiat 
-						nulla pariatur. Excepteur sint occaecat cupidatat non proident. eprehen
-						erit in voluptate velit esse cillum dolore eu giat nulla pariatur. Excepte
-						sint occaecat cupidatat non proident. </p>
+						<p>Persona proactiva, capaz, profesional, integra y responsable además de competente para desarrollar cualquier tarea que se le encomiende dentro de su profesión. </p>
 					</div>
 				</div>
 			</div>
